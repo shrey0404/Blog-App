@@ -1,4 +1,4 @@
-------> ALL THE INFORMATION FOR BETTER UNDERSTANDING OF THE BLOG-APP <------
+------> ALL THE INFORMATION FOR BETTER UNDERSTANDING OF THE BACKEND DEVELOPMENT <------
 
 STEP 1 -> Create PACKAGE.JSON file using NPM INIT.
 
@@ -23,3 +23,9 @@ app.set("view engine", "ejs"); // to set the view engine as ejs
 app.set("views", path.resolve("./views")); // to locate the path to the views folder
 
 STEP 9 -> Now Design the Home page in Views folder for the Server side rendering (basic UI development using HTML nd CSS).
+
+STEP 10 -> Design a model for user management of our app:
+--> includes the name,email,password annd other info as schema and export it as model
+--> and also hased the password with the help of crypto built-in packeage for better security
+
+STEP 11 ->
