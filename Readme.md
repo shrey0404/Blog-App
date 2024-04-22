@@ -28,4 +28,9 @@ STEP 10 -> Design a model for user management of our app:
 --> includes the name,email,password annd other info as schema and export it as model
 --> and also hased the password with the help of crypto built-in packeage for better security
 
-STEP 11 ->
+STEP 11 -> Now in Routes folder :
+we made a user.js file which routes the url to the root file {index.js} and also contains the basic functionality
+of adding the users entry into the system ... and then user can insert the data {name, email and password}
+in which the password will be hashed for security reasons...
+
+STEP 12 ->
